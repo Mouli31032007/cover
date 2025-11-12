@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:12.11.2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,10 +31,46 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #f0f0f0;
+            }
+            img {
+                margin-top: 50px;
+                border: 5px solid #ccc;
+                box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+                
+            }
+.bottom-left {
+  position: absolute;
+  bottom: 180px;
+  left: 600px;
+  font-size: 40px;
+  color:#f0f0f0
+}
+.bottom-right {
+  position: absolute ;
+  bottom: 180px;
+  left: 900px;
+  
+}
 
+        </style>       
+    </head>
+    <body align="center">
+        <img src="background.jpg" class="bottom-left" alt="Book Cover">
+        <div class="bottom-left">MOULIDHARAN S</div>
+        <div class="bottom-right"><img src="moulidharan.jpg" style="width:60px; height:auto;"></div>
+    </body>
+</html>
+
+```
 
 ## OUTPUT:
-
+![alt text](<Screenshot 2025-11-12 103857.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
